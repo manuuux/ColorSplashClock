@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+body{
+  font-family: 'Roboto', sans-serif; 
+  width:100vw;
+  height:100vh;
+  overflow:hidden;
+  background-image:url("https://static.pexels.com/photos/5230/road-fog-foggy-mist.jpg");
+  background-size:cover;
+  background-position:center;
+}
+#hora,#punt,#min{
+  float:left;
+}
+#pers{
+  width:100vw;
+  height:100vh;
+  perspective: 350px;
+}
+#reloj{
+  transform:translate(40vw,60vh) rotateY(-35deg);
+  font-size:10vh;
+  width:60vw;
+  color:white;
+  text-shadow: 0 0 20px white, 0 0 2px white, 0 150px 60px white;
+}
+#color{
+  background-color:#B0120A;
+  width:40vw;
+  height:40vh;
+  position:absolute;
+  top:45vh;
+  left:40vw;
+  border-radius:100%;
+  filter:blur(100px);
+  mix-blend-mode:lighten;
+  
+}
